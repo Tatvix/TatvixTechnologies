@@ -1,3 +1,14 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms of Service",
+  description: "Tatvix Technologies Terms of Service. Read our terms and conditions for using our embedded systems and IoT development services.",
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
 export default function TermsOfService() {
     return (
         <div className="min-h-screen pt-32 pb-20 px-6 container mx-auto">

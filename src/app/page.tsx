@@ -9,6 +9,16 @@ import AboutSection from "@/components/AboutSection";
 import TrustSection from "@/components/TrustSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Embedded Product Design & IoT Development Services",
+  description: "Expert embedded systems design and IoT product development services. End-to-end solutions for smart devices, industrial automation, and connected products. Based in Ahmedabad, India.",
+  openGraph: {
+    title: "Tatvix | Embedded Product Design & IoT Development Services",
+    description: "Expert embedded systems design and IoT product development services. End-to-end solutions for smart devices and connected products.",
+  },
+};
 
 export default function Home() {
   return (
