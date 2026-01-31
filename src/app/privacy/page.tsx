@@ -1,3 +1,14 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description: "Tatvix Technologies Privacy Policy. Learn how we collect, use, and protect your personal information when using our embedded systems and IoT services.",
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
 export default function PrivacyPolicy() {
     return (
         <div className="min-h-screen pt-32 pb-20 px-6 container mx-auto">
